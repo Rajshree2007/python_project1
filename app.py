@@ -7,7 +7,7 @@ app = Flask(__name__)
 def home():
     return """
     <h1>Welcome to My Python Website!</h1>
-    <p>Deployed successfully using Jenkins Pipeline.</p>
+    <p>Deployed successfully using Jenkins Freestyle.</p>
     """
 
 if __name__ == "__main__":
