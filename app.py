@@ -7,6 +7,7 @@ app = Flask(__name__)
 def home():
     return """
     <h1>Welcome to My Python Website!</h1>
+    <h2>Version1.0.0</h2>
     <p>Deployed successfully using Jenkins Freestyle.</p>
     """
 
